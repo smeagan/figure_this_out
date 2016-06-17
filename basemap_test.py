@@ -22,6 +22,7 @@ m = Basemap(projection='cyl',llcrnrlat=sLat,urcrnrlat=nLat,llcrnrlon=wLon,urcrnr
 m.drawcoastlines()
 m.drawcountries()
 m.drawstates()
+m.fillcontinents()
 
 plt.show()
 

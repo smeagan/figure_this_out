@@ -5,7 +5,7 @@ Created on Mon Jun  6 19:58:51 2016
 @author: smeag
 """
 #%% Basemap
-
+# Just trying to figure out git
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 

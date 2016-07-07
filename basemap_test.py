@@ -5,7 +5,7 @@ Created on Mon Jun  6 19:58:51 2016
 @author: smeag
 """
 #%% Basemap
-
+# Just trying to figure out git
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 #TEST TEST TEST
@@ -22,6 +22,7 @@ m = Basemap(projection='cyl',llcrnrlat=sLat,urcrnrlat=nLat,llcrnrlon=wLon,urcrnr
 m.drawcoastlines()
 m.drawcountries()
 m.drawstates()
+m.fillcontinents()
 
 plt.show()
 
@@ -58,3 +59,7 @@ ax.add_feature(states_provinces, edgecolor='black', linewidth=0.7)
 
 
 #map = 
+#%%
+'''just making some changes'''
+x = 1
+b = 3
